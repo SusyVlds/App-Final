@@ -1,0 +1,83 @@
+ion-toolbar{
+    --ion-toolbar-background: white;
+}
+
+/*ion-content{ 
+    --ion-background-color: white; 
+  
+}*/
+
+ion-icon{
+    font-size: 200px;
+    display: block;
+    margin: 0 auto;
+    color: #2193f3;
+}
+
+.iconInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.iconRegister{
+    font-size: 40px;
+    color: black;
+    margin-top: 30px;
+}
+
+ion-label{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    transition: 0.3s;
+    font-size: 20px;
+    
+}
+ion-item {
+    --highlight-height: 2px;
+    --highlight-color-focused: black;
+    
+}
+
+ion-input{
+    position: absolute;
+    top: 35px;
+    color: black;
+}
+
+
+
+.bLogIn{
+    --background: #2193f3; 
+    --color: white;
+    --padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 12px;
+    width: 100%;
+    letter-spacing: 5px;
+}
+
+.divButton{
+    position: relative;
+    top: 10px;
+    
+}
+
+.divForgot{
+    text-align: center;
+}
+
+.buttonCenter{
+    display: inline;
+}
+
+.divButtonH{
+    text-align: center;
+    margin-top: 190px;
+}

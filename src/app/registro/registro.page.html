@@ -1,0 +1,81 @@
+<ion-header  class="ion-no-border">
+
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button icon="arrow-back-circle" text="" defaultHref="/"> </ion-back-button> <!--permite regresar-->
+
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button (click)="loginGet()" icon="person-circle" text="" defaultHref="/"> </ion-back-button>
+      <!--permite regresar-->
+
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+
+  <h2>Registrate</h2>
+  <form [formGroup]="registerForm">
+    <ion-list>
+      <br>
+      <ion-item>
+        <ion-icon class="iconRegister" name="person-circle" slot="start"></ion-icon>
+        <ion-label position="floating">Nombre</ion-label>
+        <ion-input placeholder="" formControlName="name"></ion-input>
+      </ion-item>
+      <br>
+
+      <ion-item>
+        <ion-icon class="iconRegister" name="mail" slot="start"></ion-icon>
+        <ion-label position="floating">Correo electrónico</ion-label>
+        <ion-input type="email" placeholder="" formControlName="email"></ion-input>
+      </ion-item>
+      <br>
+
+      <ion-item>
+        <ion-icon class="iconRegister" name="keypad" slot="start"></ion-icon>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input type="password" placeholder="" formControlName="password"></ion-input>
+      </ion-item>
+    </ion-list>
+  </form>
+
+  <br>
+  <br>
+
+  <div class="divButton">
+    <ion-button class="bRegister" (click)="register()">Registrate</ion-button>
+  </div>
+  <br>
+
+  <h6>O inicia sesion con:</h6>
+  <br>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="2" sizeSm="1" sizeMd="1" sizeLg="1" sizeX1="3">       
+      
+       
+          <ion-icon class="iconNetwork" name="logo-facebook"></ion-icon>
+       
+      </ion-col>
+      <ion-col size="2" size-lg="1" size-md="1" size-sm="1" >
+    
+          <ion-icon class="iconNetwork" name="logo-google"></ion-icon>
+       
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+<br> <br> <br> <br> <br> <br> <br> 
+  <div class="divButtonH">
+    <ion-buttons class="buttonCenter">
+      <ion-button (click)="homeGet()">
+        <ion-icon slot="icon-only" name="car"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </div>
+
+</ion-content>

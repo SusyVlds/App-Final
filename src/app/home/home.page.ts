@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +9,14 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private router: Router, private location: Location) { }
+
+  registroGet(){
+    this.router.navigate(['/registro'])
+  }
+
+  logInGet(){
+    this.router.navigate(['/login'])
+  }
 
 }

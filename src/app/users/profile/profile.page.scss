@@ -1,0 +1,62 @@
+ion-toolbar{
+    --ion-toolbar-background: #ffffff;
+}
+
+ion-content{
+    --ion-background-color: linear-gradient(to bottom, #ffffff, #e4f0fa);
+}
+
+ion-icon{
+    font-size: 200px;
+    display: block;
+    margin: 0 auto;
+    color: #2193f3;
+}
+
+.iconInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Agency FB;
+    letter-spacing: 5px;
+}
+
+h2{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.divButton{
+    position: relative;
+    top: 10px;
+    
+}
+
+ion-button{
+    --padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 12px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+#avatar-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}

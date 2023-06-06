@@ -1,0 +1,56 @@
+ion-toolbar {
+    --ion-toolbar-background: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.imgEsta {
+    display: flex;
+    justify-content: center;
+    top: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Agency FB;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+.direccionE {
+    position: relative;
+    top: 10px;
+}
+
+h3 {
+    background-color: #424c53;
+    text-align: center;
+    color: white;
+    font-size: 33px;
+    font-family: Agency FB;
+    letter-spacing: 5px;
+}
+
+.lugares {
+    position: relative;
+    top: 10px;
+}
+
+.reservar {
+    position: relative;
+    top: 50px
+}
+
+ion-button {
+    --padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 12px;
+    width: 100%;
+    letter-spacing: 2px;
+}

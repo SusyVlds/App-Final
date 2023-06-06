@@ -1,0 +1,56 @@
+<ion-menu contentId="main-content">
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-title>Opciones</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+    <ion-buttons>
+      <ion-button (click)="logout()">Cerrar sesión</ion-button>
+    </ion-buttons>
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+
+    <!--<ion-icon class="iconInicio" name="happy-outline"></ion-icon>-->
+    <img id="avatar-img" src="../../../assets/car_avatar.jpg">
+
+    <h1>{{ user?.name }}</h1>
+
+    <h2>{{ user?.email }}</h2>
+
+    <br> <br>
+
+    <p>
+      Consulta si hay lugares disponibles en el estacionamiento
+      que desees.
+    </p>
+
+    <br> <br>
+   
+    <ion-button (click)="estacionamientos()">
+      Ver estacionamientos
+    </ion-button>
+
+    <br> <br> 
+
+    <ion-button (click)="getPicture()">
+      Cambiar foto
+    </ion-button>
+
+  </ion-content>
+
+
+</div>

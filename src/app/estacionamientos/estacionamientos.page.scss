@@ -1,0 +1,70 @@
+ion-toolbar {
+    --ion-toolbar-background: white;
+}
+
+ion-icon {
+    font-size: 130px;
+    display: block;
+    margin: 0 auto;
+}
+
+.iconInicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+ion-button{
+    --padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 12px;
+    width: 100%;
+    letter-spacing: 2px;
+    white-space: initial;   //ajustar el texto 
+}
+
+
+.text-custom-botones{
+    //padding-left: 30px !important;
+    padding-right: 30px;
+    font-size: 90px;
+}
+
+.esta1{
+    position: relative;
+    top: 50px;
+}
+
+.esta2{
+    position: relative;
+    top: 80px;
+}
+
+.esta3{
+    position: relative;
+    top: 110px;
+}
+
+.esta4{
+    position: relative;
+    top: 140px;
+}
+
+.hero-sec {
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: linear-gradient(180deg, #00000021 0%, #0000008c 100%);
+    background-size: cover;
+    clip-path: circle(50% at 0 0);  
+    display: flex;
+}
+
+.form{
+    position: absolute;
+}
+
